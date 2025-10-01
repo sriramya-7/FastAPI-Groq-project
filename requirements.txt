@@ -1,0 +1,6 @@
+fastapi #for builing our API
+uvicorn # for running FastAPI applications
+openai # to use llm
+groq
+python-dotenv #for loading environmental variable file
+
