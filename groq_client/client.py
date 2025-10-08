@@ -25,7 +25,7 @@ def generate_text(prompt: str) -> str:
 
 
     resp = client.chat.completions.create(
-    model="llama-3.1-8b-instant",   # replace with any model you have access to
+    model="llama-3.3-70b-versatile",   # replace with any model you have access to
     messages=[
         {"role": "system", "content": "Answer concisely."},
         {"role": "user", "content": prompt},
